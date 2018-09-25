@@ -1,0 +1,37 @@
+// @flow
+import type { ReactComponentFunctional } from "styled-components";
+
+type Props = {
+  marginTop?: number,
+  marginBottom?: number,
+  x?:
+    | "flex-start"
+    | "flex-end"
+    | "center"
+    | "space-between"
+    | "space-around"
+    | "initial"
+    | "inherit"
+    | "",
+
+  y?:
+    | "stretch"
+    | "center"
+    | "flex-start"
+    | "flex-end"
+    | "baseline"
+    | "initial"
+    | "inherit"
+    | "",
+  direction?:
+    | "row"
+    | "row-reverse"
+    | "column"
+    | "column-reverse"
+    | "initial"
+    | "inherit",
+
+  space?: number
+};
+
+declare module.exports: ReactComponentFunctional<Props, Props>;
