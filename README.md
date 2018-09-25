@@ -10,6 +10,19 @@ or
 yarn add primitives-react
 ```
 
+# Import
+```
+// @flow
+import { Flex } from "primitives-react";
+import type Flex from "primitives-react";
+```
+or
+```
+// @flow
+import Flex from "primitives-react/Flex";
+import type Flex from "primitives-react/Flex";
+```
+
 # Margin
 Border box component with adjustable margin.  
 #### Options:  
