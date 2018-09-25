@@ -1,6 +1,5 @@
 "use strict";
 const PropTypes = require("prop-types");
-
 const styled = require("styled-components").default;
 
 const Margin = styled.div`
