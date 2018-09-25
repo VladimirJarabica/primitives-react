@@ -1,0 +1,13 @@
+// @flow
+import type { ReactComponentStyled } from "styled-components";
+
+type Props = {
+  marginTop?: number,
+  marginBottom?: number,
+  height: number,
+  fontSize?: number | "initial" | "inherit",
+  lineHeight?: number | "initial" | "inherit",
+  color?: string
+};
+
+declare export default ReactComponentStyled<Props>;
