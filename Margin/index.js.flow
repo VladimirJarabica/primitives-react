@@ -2,8 +2,12 @@
 import type { ReactComponentStyled } from "styled-components";
 
 type Props = {
-  marginTop: number,
-  marginBottom: number
+  marginTop?: number,
+  marginBottom?: number,
+  marginLeft?: number,
+  marginRight?: number,
+  marginVertical?: number,
+  marginHorizontal?: number
 };
 
 declare export default ReactComponentStyled<Props>;

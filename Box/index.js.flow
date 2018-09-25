@@ -4,6 +4,10 @@ import type { ReactComponentStyled } from "styled-components";
 type Props = {
   marginTop?: number,
   marginBottom?: number,
+  marginLeft?: number,
+  marginRight?: number,
+  marginVertical?: number,
+  marginHorizontal?: number,
   height: number
 };
 

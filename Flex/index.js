@@ -21,6 +21,10 @@ const Flex = Margin.extend`
 Flex.propTypes = {
   marginTop: PropTypes.number,
   marginBottom: PropTypes.number,
+  marginLeft: PropTypes.number,
+  marginRight: PropTypes.number,
+  marginVertical: PropTypes.number,
+  marginHorizontal: PropTypes.number,
   x: PropTypes.oneOf([
     "flex-start",
     "flex-end",
@@ -57,6 +61,10 @@ Flex.propTypes = {
 Flex.defaultProps = {
   marginTop: 0,
   marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginVertical: 0,
+  marginHorizontal: 0,
   x: "",
   y: "",
   direction: "",
