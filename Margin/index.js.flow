@@ -1,9 +1,9 @@
 // @flow
-import type { ReactComponentFunctional } from "styled-components";
+import type { ReactComponentStyled } from "styled-components";
 
 type Props = {
   marginTop: number,
   marginBottom: number
 };
 
-declare module.exports: ReactComponentFunctional<Props, Props>;
+declare module.exports: ReactComponentStyled<Props>;
