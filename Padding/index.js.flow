@@ -1,0 +1,13 @@
+// @flow
+import type { ReactComponentStyled } from "styled-components";
+
+type Props = {
+  paddingTop: number,
+  paddingBottom: number,
+  paddingLeft: number,
+  paddingRight: number,
+  paddingVertical: number,
+  paddingHorizontal: number
+};
+
+declare export default ReactComponentStyled<Props>;
