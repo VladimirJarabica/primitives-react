@@ -30,7 +30,7 @@ type Props = {
     | "column-reverse"
     | "initial"
     | "inherit",
-
+  flex?: number,
   space?: number
 };
 

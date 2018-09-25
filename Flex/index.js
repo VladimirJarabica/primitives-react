@@ -12,6 +12,7 @@ const Flex = Margin.extend`
     props.y &&
     `align-items: ${props.direction === "column" ? props.x : props.y}`};
   ${props => props.direction && `flex-direction: ${props.direction}`};
+  ${props => (props.flex ? `flex: ${props.flex}` : "")};
   & > *:not(:last-child) {
     ${props => props.space && `margin-right: ${props.space}px`};
   }
@@ -49,6 +50,7 @@ Flex.propTypes = {
     "inherit",
     ""
   ]),
+  flex: PropTypes.number,
   space: PropTypes.number
 };
 
