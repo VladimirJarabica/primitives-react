@@ -1,9 +1,9 @@
 {
-  "name": "react-primitives",
+  "name": "primitives-react",
   "version": "0.0.1",
   "description": "Simple HTML primitives build by using styled-components",
   "main": "index.js",
-  "repository": "git@github.com:VladimirJarabica/react-primitives.git",
+  "repository": "git@github.com:VladimirJarabica/primitives-react.git",
   "author": "Vladimír Jarabica <vladojarabica@gmail.com>",
   "license": "MIT",
   "private": false,
