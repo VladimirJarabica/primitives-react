@@ -34,4 +34,4 @@ type Props = {
   space?: number
 };
 
-declare module.exports: ReactComponentStyled<Props>;
+declare export default ReactComponentStyled<Props>;
