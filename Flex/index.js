@@ -1,6 +1,6 @@
 "use strict";
 const PropTypes = require("prop-types");
-const styled = require("styled-components");
+const styled = require("styled-components").default;
 
 const Margin = require("../Margin");
 
