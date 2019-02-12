@@ -1,6 +1,6 @@
 {
   "name": "primitives-react",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Simple HTML primitives build by using styled-components",
   "main": "index.js",
   "repository": "git@github.com:VladimirJarabica/primitives-react.git",
