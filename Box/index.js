@@ -3,7 +3,7 @@ const PropTypes = require("prop-types");
 
 const Margin = require("../Margin");
 
-const Box = Margin.extend`
+const Box = styled(Margin)`
   height: ${props => props.height}px;
 `;
 

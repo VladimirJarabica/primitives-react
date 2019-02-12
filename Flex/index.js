@@ -3,7 +3,7 @@ const PropTypes = require("prop-types");
 
 const Margin = require("../Margin");
 
-const Flex = Margin.extend`
+const Flex = styled(Margin)`
   display: flex;
   ${props =>
     props.x &&
